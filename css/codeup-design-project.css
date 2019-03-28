@@ -49,6 +49,17 @@ h1{
     margin: 1em;
 }
 
+h5{
+    font-size: 28px;
+    padding: .3em;
+}
+
+.selectedwork{
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+
 .first-heading{
     font-size: 48px;
     margin-bottom: 1em;
@@ -69,7 +80,7 @@ h1{
 .btn-circle {
     width: 18px;
     height: 18px;
-    border-radius: 15px;
+    border-radius: 50px;
     text-align: center;
     font-size: 12px;
     line-height: 1.42857;
@@ -95,3 +106,32 @@ h1{
     background-color: #e6e6e6;
 }
 
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.icons-sizing{
+    height: 65px;
+    width: 65px;
+    border: 3px solid #e6e6e6;
+}
+
+.tweet{
+    margin-top: 3em;
+}
+
+.icons-xs{
+    height: 25px;
+    width: 25px;
+    margin-right: .8em;
+    margin-bottom: .3em;
+}
+
+h6{
+    font-weight: bold;
+}
+
+.tweet-lorem{
+    margin-top: .8em;
+}
