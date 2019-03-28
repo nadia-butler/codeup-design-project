@@ -29,7 +29,12 @@ body{
     }
 }
 
-
+hr {
+    color: #e6e6e6;
+    background-color: #e6e6e6;
+    height: 1px;
+    margin: 2em;
+}
 
 h1, h2, h4, h5, .btn{
     font-family: 'Anton', sans-serif;
@@ -46,6 +51,7 @@ h1{
 
 .first-heading{
     font-size: 48px;
+    margin-bottom: 1em;
 }
 
 .btn-circle.btn-xl {
@@ -59,6 +65,14 @@ h1{
     color: white;
     line-height: 1.33;
     border: 5px solid white;
+}
+.btn-circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
 }
 
 .first-button{
@@ -76,3 +90,8 @@ h1{
 .fourth-button{
     background-color: #00ABA9;
 }
+.img-thumbnail {
+    max-height: 200px;
+    background-color: #e6e6e6;
+}
+
