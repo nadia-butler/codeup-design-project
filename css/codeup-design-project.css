@@ -11,23 +11,47 @@ body{
     background-color: #F0F0F0;
 }
 
-@include media-breakpoint-up(sm){
-    html {
-        font-size: 1.2rem;
-    }
+.navbar{
+    height: 60px;
+    margin-top: 45px;
 }
 
-@include media-breakpoint-up(md){
-    html{
-        font-size: 1.4rem;
-    }
+.navbar-brand{
+    font-size: 35px;
+    margin-left: 10px;
 }
 
-@include media-breakpoint-up(lg){
-    html{
-        font-size: 1.6rem;
-    }
+.nav-link{
+    margin: 10px;
 }
+
+.navbar-nav{
+    margin-left: 300px;
+}
+
+.logo-image{
+    height: 120px;
+    width: 120px;
+    margin-left: 125px;
+}
+
+/*@include media-breakpoint-up(sm){*/
+    /*html {*/
+        /*font-size: 1.2rem;*/
+    /*}*/
+/*}*/
+
+/*@include media-breakpoint-up(md){*/
+    /*html{*/
+        /*font-size: 1.4rem;*/
+    /*}*/
+/*}*/
+
+/*@include media-breakpoint-up(lg){*/
+    /*html{*/
+        /*font-size: 1.6rem;*/
+    /*}*/
+/*}*/
 
 hr {
     color: #e6e6e6;
@@ -144,6 +168,8 @@ h6{
     margin-top: .8em;
 }
 
+/* sm and xs screen */
+
 @media screen and (max-width: 576px) {
     .img-thumbnail {
         width: 100%;
@@ -151,7 +177,73 @@ h6{
     .select-work-cent {
         text-align: center;
     }
+    .b-margin{
+        margin-left: 5px;
+    }
 }
+
+/* med screen */
+
+@media screen and (max-width: 768px) {
+
+
+    .navbar{
+        height: 50px;
+        margin-top: 5px;
+    }
+
+    ul{
+        display: inline;
+    }
+
+    .navbar-brand{
+        font-size: 35px;
+        margin-left: 0px;
+    }
+
+    .nav-link{
+        margin: 0px;
+        flex-direction: row-reverse;
+    }
+
+    .navbar-nav{
+        margin-left: 0px;
+    }
+
+    .logo-image{
+        height: 50px;
+        width: 50px;
+        margin-left: 25px;
+    }
+
+
+    h5{
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .icons-sizing{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 25px;
+    }
+
+    .icons-xs{
+        height: 18px;
+        width: 18px;
+    }
+
+    p, h6, figcaption{
+        font-size: 12px;
+    }
+
+    .b-margin{
+        margin: 0px;
+    }
+}
+
+
+
 .b-margin {
     margin-left: 80px;
 }
