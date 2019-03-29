@@ -82,24 +82,32 @@ h5{
     height: 18px;
     border-radius: 50px;
     text-align: center;
-    font-size: 12px;
-    line-height: 1.42857;
+    font-size: 8px;
+    /*line-height: 1.42857;*/
 }
 
 .first-button{
     background-color: #E6563B;
+    border-radius: 50px;
+    border: none;
 }
 
 .second-button{
     background-color: #EB9D3A;
+    border-radius: 50px;
+    border: none;
 }
 
 .third-button{
     background-color: #7CB06C;
+    border-radius: 50px;
+    border: none;
 }
 
 .fourth-button{
     background-color: #00ABA9;
+    border-radius: 50px;
+    border: none;
 }
 .img-thumbnail {
     max-height: 200px;
@@ -136,3 +144,14 @@ h6{
     margin-top: .8em;
 }
 
+@media screen and (max-width: 576px) {
+    .img-thumbnail {
+        width: 100%;
+}
+    .select-work-cent {
+        text-align: center;
+    }
+}
+.b-margin {
+    margin-left: 80px;
+}
