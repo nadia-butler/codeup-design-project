@@ -122,6 +122,16 @@ h5{
     border-radius: 50px;
     border: none;
 }
+
+/*figcaption{*/
+    /*position: relative;*/
+/*}*/
+
+/*.absolute-margin{*/
+    /*position: absolute;*/
+    /*right: 0;*/
+/*}*/
+
 .img-thumbnail {
     max-height: 200px;
     background-color: #e6e6e6;
@@ -157,9 +167,11 @@ h6{
     margin-top: .8em;
 }
 
-/* sm and xs screen */
 
-@media screen and (max-width: 576px) {
+
+/* xs screen */
+
+@media screen and (max-width: 575px) {
     .img-thumbnail {
         width: 100%;
     }
@@ -191,9 +203,96 @@ h6{
 
 }
 
+/* sm screen */
+
+@media screen and (max-width: 767px) {
+
+    h1{
+        font-size: 42px;
+        width: 100%;
+    }
+
+    .first-heading{
+        font-size: 32px;
+    }
+
+    .select-work-cent{
+        text-align: center;
+    }
+
+    /*.sm-move{*/
+        /*float: right;*/
+    /*}*/
+
+
+    .navbar{
+        height: 50px;
+        margin-top: 5px;
+    }
+
+    ul{
+        display: inline;
+    }
+
+    .navbar-brand{
+        font-size: 35px;
+        margin-left: 0px;
+    }
+
+    .nav-link{
+        margin: 0px;
+        flex-direction: row-reverse;
+    }
+
+    .navbar-nav{
+        margin-left: 0px;
+    }
+
+    .logo-image{
+        height: 50px;
+        width: 50px;
+        margin-left: 25px;
+    }
+
+
+    h5{
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .icons-sizing{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 25px;
+    }
+
+    .icons-xs{
+        height: 18px;
+        width: 18px;
+    }
+
+    p, h6, figcaption{
+        font-size: 12px;
+    }
+
+    /*span.b-margin {*/
+        /*margin: 0px;*/
+        /*padding: 0px;*/
+        /*margin-left: 30px;*/
+    /*}*/
+
+    .tweet-lorem {
+        margin-top: 0;
+    }
+    div.icons.mb-5 {
+        margin:0px;
+    }
+}
+
+
 /* med screen */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
 
 
     .navbar{
@@ -261,8 +360,10 @@ h6{
 }
 
     /* Big Screen */
-@media screen and (min-width: 992px){
-    .tweet-move {
+
+    @media screen and (min-width: 992px){
+
+        .tweet-move {
         margin-top: 50px;
     }
 }
