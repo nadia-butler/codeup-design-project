@@ -11,47 +11,9 @@ body{
     background-color: #F0F0F0;
 }
 
-.navbar{
-    height: 60px;
-    margin-top: 45px;
+span {
+    margin: 0px;
 }
-
-.navbar-brand{
-    font-size: 35px;
-    margin-left: 10px;
-}
-
-.nav-link{
-    margin: 10px;
-}
-
-.navbar-nav{
-    margin-left: 300px;
-}
-
-.logo-image{
-    height: 120px;
-    width: 120px;
-    margin-left: 125px;
-}
-
-/*@include media-breakpoint-up(sm){*/
-    /*html {*/
-        /*font-size: 1.2rem;*/
-    /*}*/
-/*}*/
-
-/*@include media-breakpoint-up(md){*/
-    /*html{*/
-        /*font-size: 1.4rem;*/
-    /*}*/
-/*}*/
-
-/*@include media-breakpoint-up(lg){*/
-    /*html{*/
-        /*font-size: 1.6rem;*/
-    /*}*/
-/*}*/
 
 hr {
     color: #e6e6e6;
@@ -76,6 +38,33 @@ h1{
 h5{
     font-size: 28px;
     padding: .3em;
+}
+.navbar{
+    height: 60px;
+    margin-top: 45px;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.nav-link{
+    margin: 10px;
+}
+
+.navbar-nav{
+    margin-left: 300px;
+}
+
+.logo-image{
+    height: 120px;
+    width: 120px;
+    margin-left: 125px;
+}
+
+.b-margin {
+    margin-left: 80px;
 }
 
 .selectedwork{
@@ -173,13 +162,33 @@ h6{
 @media screen and (max-width: 576px) {
     .img-thumbnail {
         width: 100%;
-}
+    }
+
     .select-work-cent {
         text-align: center;
     }
-    .b-margin{
-        margin-left: 5px;
+    .first-button {
+        margin-left: 100px;
     }
+    .btn-xl-red {
+        float: right;
+    }
+    .btn-xl-orange {
+        float: left;
+    }
+    .btn-xl-green {
+        float: right;
+    }
+    div.col {
+        padding: 0px;
+    }
+    h1 {
+    font-size: 32px;
+    }
+    .first-heading {
+        font-size: 28px;
+    }
+
 }
 
 /* med screen */
@@ -237,13 +246,29 @@ h6{
         font-size: 12px;
     }
 
-    .b-margin{
+    span.b-margin {
         margin: 0px;
+        padding: 0px;
+        margin-left: 30px;
+    }
+
+    .tweet-lorem {
+        margin-top: 0;
+    }
+    div.icons.mb-5 {
+        margin:0px;
+    }
+}
+
+    /* Big Screen */
+@media screen and (min-width: 992px){
+    .tweet-move {
+        margin-top: 50px;
     }
 }
 
 
 
-.b-margin {
-    margin-left: 80px;
-}
+
+
+
