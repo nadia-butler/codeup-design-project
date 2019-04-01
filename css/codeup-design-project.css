@@ -123,15 +123,6 @@ h5{
     border: none;
 }
 
-/*figcaption{*/
-    /*position: relative;*/
-/*}*/
-
-/*.absolute-margin{*/
-    /*position: absolute;*/
-    /*right: 0;*/
-/*}*/
-
 .img-thumbnail {
     max-height: 200px;
     background-color: #e6e6e6;
@@ -287,6 +278,11 @@ h6{
     div.icons.mb-5 {
         margin:0px;
     }
+    div.col {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
 }
 
 
