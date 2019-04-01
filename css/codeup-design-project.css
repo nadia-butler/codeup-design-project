@@ -1,13 +1,13 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-html{
+html {
     font-size: 1rem;
 }
 
-body{
+body {
     background-color: #F0F0F0;
 }
 
@@ -22,42 +22,43 @@ hr {
     margin: 2em;
 }
 
-h1, h2, h4, h5, .btn{
+h1, h2, h4, h5, .btn {
     font-family: 'Anton', sans-serif;
 }
 
-p, body{
+p, body {
     font-family: 'Abel', sans-serif;
 }
 
-h1{
+h1 {
     font-size: 64px;
     margin: 1em;
 }
 
-h5{
+h5 {
     font-size: 28px;
     padding: .3em;
 }
-.navbar{
+
+.navbar {
     height: 60px;
     margin-top: 45px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 35px;
     margin-left: 10px;
 }
 
-.nav-link{
+.nav-link {
     margin: 10px;
 }
 
-.navbar-nav{
+.navbar-nav {
     margin-left: 300px;
 }
 
-.logo-image{
+.logo-image {
     height: 120px;
     width: 120px;
     margin-left: 125px;
@@ -67,13 +68,13 @@ h5{
     margin-left: 80px;
 }
 
-.selectedwork{
+.selectedwork {
     margin-left: 1em;
     margin-bottom: 2em;
 }
 
 
-.first-heading{
+.first-heading {
     font-size: 48px;
     margin-bottom: 1em;
 }
@@ -90,6 +91,7 @@ h5{
     line-height: 1.33;
     border: 5px solid white;
 }
+
 .btn-circle {
     width: 18px;
     height: 18px;
@@ -99,25 +101,25 @@ h5{
     /*line-height: 1.42857;*/
 }
 
-.first-button{
+.first-button {
     background-color: #E6563B;
     border-radius: 50px;
     border: none;
 }
 
-.second-button{
+.second-button {
     background-color: #EB9D3A;
     border-radius: 50px;
     border: none;
 }
 
-.third-button{
+.third-button {
     background-color: #7CB06C;
     border-radius: 50px;
     border: none;
 }
 
-.fourth-button{
+.fourth-button {
     background-color: #00ABA9;
     border-radius: 50px;
     border: none;
@@ -128,36 +130,35 @@ h5{
     background-color: #e6e6e6;
 }
 
-.icons{
+.icons {
     display: flex;
     align-items: center;
 }
 
-.icons-sizing{
+.icons-sizing {
     height: 65px;
     width: 65px;
     border: 3px solid #e6e6e6;
 }
 
-.tweet{
+.tweet {
     margin-top: 3em;
 }
 
-.icons-xs{
+.icons-xs {
     height: 25px;
     width: 25px;
     margin-right: .8em;
     margin-bottom: .3em;
 }
 
-h6{
+h6 {
     font-weight: bold;
 }
 
-.tweet-lorem{
+.tweet-lorem {
     margin-top: .8em;
 }
-
 
 
 /* xs screen */
@@ -170,24 +171,31 @@ h6{
     .select-work-cent {
         text-align: center;
     }
+
     .first-button {
         margin-left: 100px;
     }
+
     .btn-xl-red {
         float: right;
     }
+
     .btn-xl-orange {
         float: left;
     }
+
     .btn-xl-green {
         float: right;
     }
+
     div.col {
         padding: 0px;
     }
+
     h1 {
-    font-size: 32px;
+        font-size: 32px;
     }
+
     .first-heading {
         font-size: 28px;
     }
@@ -198,86 +206,85 @@ h6{
 
 @media screen and (max-width: 767px) {
 
-    h1{
+    h1 {
         font-size: 42px;
         width: 100%;
     }
 
-    .first-heading{
+    .first-heading {
         font-size: 32px;
     }
 
-    .select-work-cent{
+    .select-work-cent {
         text-align: center;
     }
 
     /*.sm-move{*/
-        /*float: right;*/
+    /*float: right;*/
     /*}*/
-
-
-    .navbar{
+    .navbar {
         height: 50px;
         margin-top: 5px;
     }
 
-    ul{
+    ul {
         display: inline;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         font-size: 35px;
         margin-left: 0px;
     }
 
-    .nav-link{
+    .nav-link {
         margin: 0px;
-        flex-direction: row-reverse;
+        /*flex-direction: row-reverse;*/
     }
 
-    .navbar-nav{
+    .navbar-nav {
         margin-left: 0px;
     }
 
-    .logo-image{
+    .logo-image {
         height: 50px;
         width: 50px;
         margin-left: 25px;
     }
 
 
-    h5{
+    h5 {
         font-size: 18px;
         margin-bottom: 25px;
     }
 
-    .icons-sizing{
+    .icons-sizing {
         height: 50px;
         width: 50px;
         margin-bottom: 25px;
     }
 
-    .icons-xs{
+    .icons-xs {
         height: 18px;
         width: 18px;
     }
 
-    p, h6, figcaption{
+    p, h6, figcaption {
         font-size: 12px;
     }
 
     /*span.b-margin {*/
-        /*margin: 0px;*/
-        /*padding: 0px;*/
-        /*margin-left: 30px;*/
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+    /*margin-left: 30px;*/
     /*}*/
-
     .tweet-lorem {
         margin-top: 0;
     }
+
     div.icons.mb-5 {
-        margin:0px;
+        margin: 0px;
     }
+
     div.col {
         padding-left: 0 !important;
         padding-right: 0 !important;
@@ -291,53 +298,53 @@ h6{
 @media screen and (max-width: 992px) {
 
 
-    .navbar{
+    .navbar {
         height: 50px;
         margin-top: 5px;
     }
 
-    ul{
+    ul {
         display: inline;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         font-size: 35px;
         margin-left: 0px;
     }
 
-    .nav-link{
+    .nav-link {
         margin: 0px;
         flex-direction: row-reverse;
     }
 
-    .navbar-nav{
-        margin-left: 0px;
+    .navbar-nav {
+        margin-left: 150px;
     }
 
-    .logo-image{
+    .logo-image {
         height: 50px;
         width: 50px;
         margin-left: 25px;
     }
 
 
-    h5{
+    h5 {
         font-size: 18px;
         margin-bottom: 25px;
     }
 
-    .icons-sizing{
+    .icons-sizing {
         height: 50px;
         width: 50px;
         margin-bottom: 25px;
     }
 
-    .icons-xs{
+    .icons-xs {
         height: 18px;
         width: 18px;
     }
 
-    p, h6, figcaption{
+    p, h6, figcaption {
         font-size: 12px;
     }
 
@@ -350,16 +357,17 @@ h6{
     .tweet-lorem {
         margin-top: 0;
     }
+
     div.icons.mb-5 {
-        margin:0px;
+        margin: 0px;
     }
 }
 
-    /* Big Screen */
+/* Big Screen */
 
-    @media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
 
-        .tweet-move {
+    .tweet-move {
         margin-top: 50px;
     }
 }
